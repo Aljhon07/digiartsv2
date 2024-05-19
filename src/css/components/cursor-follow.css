@@ -1,0 +1,13 @@
+#cursor-follow {
+  position: fixed;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  z-index: 9999;
+  transition: all 150ms ease;
+  border-radius: 50%;
+  background-color: transparent;
+  background-color: rgb(var(--primary));
+  border: solid white 1px;
+}

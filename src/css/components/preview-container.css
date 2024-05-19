@@ -1,0 +1,10 @@
+#preview-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#preview-container video {
+  width: 100%;
+  max-width: 450px;
+}

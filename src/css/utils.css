@@ -1,0 +1,24 @@
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-transition {
+  position: relative;
+  overflow: hidden;
+  animation: cover_show_el 1200ms ease-in-out 200ms forwards;
+}
+
+.cover-transition::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(var(--primary));
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  transform: translateY(-100%);
+  animation: cover 1s ease 200ms forwards;
+}

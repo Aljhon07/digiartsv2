@@ -1,0 +1,19 @@
+#members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+#member {
+  align-self: stretch;
+  width: 120px;
+}
+#member > img {
+  filter: drop-shadow(0, 1px, 1px, red);
+  width: 120px;
+  height: 120px;
+  padding: 1rem;
+  border-radius: 50%;
+}

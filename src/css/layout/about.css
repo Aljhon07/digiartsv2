@@ -1,0 +1,74 @@
+#about {
+  flex-direction: column;
+}
+
+#about * {
+  color: var(--light);
+}
+#about #xcite {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#about #xcite h1 {
+  padding-top: 5rem;
+  white-space: nowrap;
+  font-size: 5rem;
+  scale: 1.5;
+  overflow: hidden;
+  color: transparent;
+  letter-spacing: 1.5rem;
+  position: sticky;
+  top: 0;
+}
+#about #about-us p {
+  color: var(--text);
+  position: relative;
+  z-index: 1;
+}
+
+#about #about-us {
+  position: relative;
+  height: 100vh;
+  z-index: 1;
+}
+
+#about-us .wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: clamp(366px, 60%, 640px);
+}
+#about article {
+  gap: 1rem;
+  text-align: justify;
+  padding: 1rem 0;
+}
+
+#about .wrapper img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 980px) {
+  #about #xcite h1 {
+    white-space: nowrap;
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  #about #xcite h1 {
+    white-space: nowrap;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  #about #xcite h1 {
+    white-space: nowrap;
+    font-size: 1rem;
+    letter-spacing: normal;
+  }
+}

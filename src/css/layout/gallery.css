@@ -1,0 +1,14 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  min-height: unset !important;
+  margin-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.gallery > * {
+  flex-grow: 1;
+  max-width: 305px;
+}

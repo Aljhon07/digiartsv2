@@ -1,0 +1,37 @@
+#xcite i {
+  position: absolute;
+  bottom: 0;
+  font-size: 24px;
+}
+#xcite {
+  position: sticky;
+  top: 0;
+}
+#xcite h2 {
+  color: var(--light);
+  /* color: transparent; */
+  font-weight: 1000;
+}
+
+#xcite h2 > * {
+  color: var(--light);
+  /* color: transparent; */
+  font-weight: 1000;
+}
+
+#xcite .wrapper {
+  flex-direction: column;
+  text-align: center;
+}
+
+#xcite article {
+  transform: rotateX(0) rotateY(0);
+  pointer-events: none;
+  transform-style: preserve-3d;
+  perspective: 2rem;
+}
+
+#company-previews {
+  display: flex;
+  flex-wrap: wrap;
+}

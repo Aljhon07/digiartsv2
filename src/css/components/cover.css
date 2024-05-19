@@ -1,0 +1,11 @@
+#cover {
+  position: fixed;
+  background-color: rgb(var(--primary));
+  inset: 0;
+  z-index: 1000;
+  transform: translateY(-100%);
+}
+
+#cover.transition {
+  animation: cover 1200ms ease-in-out forwards;
+}

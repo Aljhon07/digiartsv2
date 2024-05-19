@@ -1,0 +1,41 @@
+@keyframes highlight {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes cover {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  30% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(0%);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes cover_show_el {
+  0% {
+    color: transparent;
+  }
+  30% {
+    color: transparent;
+  }
+  31% {
+    color: var(--clr);
+  }
+  100% {
+    color: var(--clr);
+  }
+}

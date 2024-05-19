@@ -1,0 +1,70 @@
+#teasers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem 0;
+  background-color: rgb(var(--secondary));
+  position: relative;
+  z-index: 3;
+}
+
+#teasers #video-container {
+  background: rgba(230, 230, 230, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  border-radius: 1rem;
+  align-self: stretch;
+  width: 30%;
+  min-width: 320px;
+  max-width: 480px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* flex-grow: 1; */
+}
+
+#teasers #video-wrapper {
+  position: relative;
+  height: min-content;
+  margin: auto 0;
+}
+
+#teasers picture {
+  position: absolute;
+  /* background-color: rgba(var(--primary), 0.7); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  inset: 0;
+  border-radius: 1rem;
+  cursor: pointer;
+  z-index: 10;
+}
+
+#teasers img {
+  object-fit: contain;
+  width: 48px;
+  height: 48px;
+}
+
+#teasers video {
+  position: relative;
+  width: 100%;
+  object-fit: contain;
+}
+
+#teasers a {
+  color: var(--primary);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 745px) {
+  #teasers #video-container {
+    flex-grow: 1;
+  }
+}
