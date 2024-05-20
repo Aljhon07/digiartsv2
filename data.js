@@ -14,6 +14,10 @@ export const ourTeamImg = [
     name: "CIPRIANO, Aljhon S.",
     img: "cipriano.jpg",
   },
+  {
+    name: "Salazar, Cynel S.",
+    img: "salazar.jpg",
+  },
 ];
 
 export const data = [
