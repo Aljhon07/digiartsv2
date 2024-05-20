@@ -121,7 +121,7 @@ export const data = [
   {
     id: "envoircrafteefern",
     name: "Envoir Craftee Fern Inc",
-    tagline: "A medow in your own home!",
+    tagline: "A meadow in your own home!",
     mission:
       "Our mission is to bring, and showcase works of art by craft. Dedicated to the beauty of nature where we create through artistry, creativity, and finesse. At Onze Bloom Vallei, we curate and display outstanding works of art that highlight the skillful craftsmanship involved. With a deep respect for the beauty found in nature, we use our creativity and expertise to create experiences that engage and fascinate our audience. Through careful curation, we aim to showcase pieces that reflect our dedication to quality, setting ourselves apart within the art community. Our goal is to consistently raise the bar for artistic expression by selecting and presenting pieces that exemplify excellence.",
     vision:
