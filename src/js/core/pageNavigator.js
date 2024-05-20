@@ -17,7 +17,6 @@ export function render() {
   $("#menu").classList.remove("show-menu");
   const { baseParams, params } = getURL();
   root.innerHTML = "";
-  window.scrollTo(0, 0);
   switch (baseParams) {
     case "":
       const [landingPage, landingPageCB] = initLandingPage();
@@ -32,7 +31,7 @@ export function render() {
       homeCB();
       break;
 
-    case "gallery":
+    case "companies":
       const [gallery, galleryCB] = initGallery();
       root.innerHTML = gallery;
 

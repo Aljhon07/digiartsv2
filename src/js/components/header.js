@@ -7,7 +7,7 @@ export function initHeader() {
       <a href="#/"> <h1 id="logo" ><span>Digi</span>Arts</h1> </a>
       <ul id="menu">
         <li><a class="nav-links active" href="#/explore">EXPLORE</a></li>
-        <li><a class="nav-links" href="#/gallery"> GALLERY </a></li>
+        <li><a class="nav-links" href="#/companies"> COMPANIES </a></li>
         <li><a class="nav-links" href="#/about"> ABOUT </a></li>
       </ul>
     ${
