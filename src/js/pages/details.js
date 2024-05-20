@@ -10,7 +10,7 @@ export function initDetails(params) {
 
   const details = `
     <div class="wrapper">
-      <a href="#/gallery">
+      <a href="#/companies">
         <img alt="close" src="/src/public/assets/close.svg"></img>
       </a>
       <h1>${d[0].name}</h1>

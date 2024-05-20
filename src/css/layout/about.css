@@ -79,17 +79,20 @@
   color: rgb(var(--primary));
   padding: 1rem 0;
 }
+#our-team #members {
+  max-width: 900px;
+}
 #our-team #member {
   width: max-content;
 }
 #our-team #member * {
   width: max-content;
-  font-size: var(--fs-500);
+  font-size: var(--fs-450);
   color: rgb(var(--primary));
 }
 #our-team #member > img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 @media screen and (max-width: 980px) {
   #about #xcite h1 {

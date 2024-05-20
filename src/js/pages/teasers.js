@@ -24,7 +24,7 @@ export function initTeasers() {
                   <img src="/src/public/assets/play-button.svg"></img>
                   </picture>
               </div>
-            <h6>by <a href="#/gallery/${company.url}">${company.name}</a></h6>
+            <h6>by <a href="#/companies/${company.url}">${company.name}</a></h6>
         </div>
             `;
       });

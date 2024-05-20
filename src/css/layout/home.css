@@ -1,7 +1,8 @@
 #xcite i {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   font-size: 24px;
+  animation: bounce 3000ms ease-in-out infinite;
 }
 #xcite {
   position: sticky;

@@ -13,7 +13,7 @@ export function initPreviewContainer() {
               <img src="/src/public/assets/play-button.svg"></img>
             </picture>
         </div>
-      <h6>by <a href="#/gallery/${id}">${name}</a></h6>
+      <h6>by <a href="#/companies/${id}">${name}</a></h6>
     </div>
       `;
   });

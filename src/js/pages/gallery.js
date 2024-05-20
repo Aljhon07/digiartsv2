@@ -32,5 +32,5 @@ function addCardEvents() {
 //   console.log(card);
 // }
 function handleClick(card) {
-  location.href = `#/gallery/${card.id}`;
+  location.href = `#/companies/${card.id}`;
 }

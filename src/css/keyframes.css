@@ -12,10 +12,7 @@
     transform: translateY(-100%);
   }
 
-  30% {
-    transform: translateY(0%);
-  }
-
+  30%,
   50% {
     transform: translateY(0%);
   }
@@ -26,16 +23,29 @@
 }
 
 @keyframes cover_show_el {
-  0% {
-    color: transparent;
-  }
+  0%,
   30% {
     color: transparent;
   }
-  31% {
-    color: var(--clr);
-  }
+
+  31%,
   100% {
     color: var(--clr);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
   }
 }
