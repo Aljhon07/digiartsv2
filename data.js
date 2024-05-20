@@ -20,7 +20,7 @@ export const ourTeamImg = [
   },
   {
     name: "Nueno, Archie",
-    img: "neuno.jpg",
+    img: "nueno.jpg",
   },
 ];
 
