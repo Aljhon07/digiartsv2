@@ -15,8 +15,12 @@ export const ourTeamImg = [
     img: "cipriano.jpg",
   },
   {
-    name: "Salazar, Cynel S.",
+    name: "Salazar, Cynel",
     img: "salazar.jpg",
+  },
+  {
+    name: "Nueno, Archie",
+    img: "neuno.jpg",
   },
 ];
 
