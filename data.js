@@ -2,7 +2,20 @@ export const URL = {
   teasers: "/src/public/assets/teasers/",
   members: "/src/public/assets/members/",
   logo: "/src/public/assets/logos/",
+  ourTeam: "/src/public/our-team/",
 };
+
+export const ourTeamImg = [
+  {
+    name: "VENZON, Adriane",
+    img: "venzon.jpg",
+  },
+  {
+    name: "CIPRIANO, Aljhon S.",
+    img: "cipriano.jpg",
+  },
+];
+
 export const data = [
   {
     id: "chiq_boutique",

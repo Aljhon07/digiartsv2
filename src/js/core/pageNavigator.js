@@ -11,7 +11,9 @@ export function initPageNavigator() {
 }
 
 const root = document.getElementById("root");
+
 export function render() {
+  // location.href = "#/";
   $("#menu").classList.remove("show-menu");
   const { baseParams, params } = getURL();
   root.innerHTML = "";
