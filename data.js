@@ -16,7 +16,7 @@ export const ourTeamImg = [
   },
   {
     name: "MENDEZ, Jayrald Marcus E.",
-    img: "mendez1.jpg",
+    img: "mendez.jpg",
   },
   {
     name: "Nueno, Archie Jenzel D.",
