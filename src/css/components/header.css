@@ -9,6 +9,8 @@ header {
   font-size: var(--fs-400);
   z-index: 999;
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
 }
 
 nav {
@@ -70,6 +72,8 @@ a.nav-links.active::before {
     margin-top: 5rem;
     /* background: rgb(var(--primaryRGB), 0.7); */
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
     padding: 1rem 0;
     width: var(--max-screen);
     position: absolute;

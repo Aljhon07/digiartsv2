@@ -13,6 +13,8 @@
   position: relative;
   background: rgba(var(--primary), 0.3);
   backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
   margin: 0 auto;
   width: var(--max-screen);
   width: 80%;
